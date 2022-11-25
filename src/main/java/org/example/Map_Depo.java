@@ -1,7 +1,6 @@
 package org.example;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Map_Depo {
     public static Map<Integer,String> Map_olustur(){
@@ -37,4 +36,26 @@ public class Map_Depo {
         return ogrenciMap;
     }
 
+    public static List<String> numaradegerinegorelisteolustur(Map<Integer, String> ogrencMap, int baslaNo, int bitNo) {
+        Set<Integer> ogrenciKeySeti =ogrencMap.keySet();
+        Collection <String> ogrencValueColl=ogrencMap.values();
+        List<String>isimListesi=new ArrayList<>();
+
+        String value;
+        String[] valueArray;
+        String istenenIsim;
+        for (Integer eacKey:ogrenciKeySeti){
+            if (baslaNo<=eacKey && eacKey<=bitNo){
+
+                value=ogrencMap.get(eacKey);
+
+                valueArray=value.split("-");
+
+                istenenIsim=valueArray[0]+ " "+ valueArray[1]+ " "+valueArray[4];
+
+                isimListesi.add(istenenIsim);
+            }
+        }
+        return isimListesi;
+    }
 }
