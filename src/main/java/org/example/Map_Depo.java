@@ -80,4 +80,13 @@ public class Map_Depo {
 
         return siraliogrencilistesi;
     }
+
+    public static Map<Integer, String> soyisimlerbuyuk(Map<Integer, String> ogrenciMap) {
+
+
+
+
+
+        return ogrenciMap;
+    }
 }
