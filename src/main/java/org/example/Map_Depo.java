@@ -58,4 +58,26 @@ public class Map_Depo {
         }
         return isimListesi;
     }
+
+    public static Set<String> siraliOgrencilistesi(Map<Integer, String> ogrenciMapi) {
+        Set<String>siraliogrencilistesi=new TreeSet<>();
+
+        Set<Map.Entry<Integer,String>> ogrencientryseti =ogrenciMapi.entrySet();
+        String istenenbilfi;
+        String value;
+        String[] valueArry;
+        for (Map.Entry<Integer,String>eachentry:ogrencientryseti
+             ) {
+            value=eachentry.getValue();
+            valueArry=value.split("-");
+            istenenbilfi=valueArry[4]+", "+
+                    valueArry[2]+", "+
+                    valueArry[0]+" "+
+                    valueArry[1]+", "+ eachentry.getKey();
+            siraliogrencilistesi.add(istenenbilfi);
+        }
+
+
+        return siraliogrencilistesi;
+    }
 }
