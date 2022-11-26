@@ -6,29 +6,25 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Maps_4 {
-    public static void main(String[] args) {
 
-    }
-    public static String[] firstSwap(String[] strings) {
-        TreeMap<Character, Integer> tm = new TreeMap<>();
-        for (int i = 0; i < strings.length; ++i) {
-            char cur=strings[i].charAt(0);
-            if (tm.containsKey(cur)){
-                int mapping = tm.get(cur);
-                if(mapping == -1){
-                    continue;
-                }
-                else{
-                    String tmp=strings[mapping];
-                    strings[mapping] =strings[i];
-                    strings[i]=tmp;
-                    tm.replace(cur,-1);
-                }
-            }
-            else{
-                tm.put(cur,i);
+
+    public static String[] allSwap(String[] strings) {
+        String[] result = new String[strings.length];
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+
+        for (int i = 0; i < strings.length; i++) {
+            char c = strings[i].charAt(0);
+            if (map.containsKey(c)) {
+                int p = map.get(c);
+                map.remove(c);
+                ;
+                result[i] = result[p];
+                result[p] = strings[i];
+            } else {
+                result[i] = strings[i];
+                map.put(c, i);
             }
         }
-        return strings;
+        return result;
     }
 }

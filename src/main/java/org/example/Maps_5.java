@@ -7,6 +7,7 @@ public class Maps_5 {
     public static void main(String[] args) {
 
 
+
         Map<Integer, String> ogrenciMap = Map_Depo.Map_olustur();
         System.out.println(ogrenciMap);
         Set<Map.Entry<Integer,String>> ogrencientryset= ogrenciMap.entrySet();

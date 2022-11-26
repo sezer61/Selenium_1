@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/map_de.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map_Depo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map_Depo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Maps_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Maps_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Maps_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Maps_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.maps_6">
+  <component name="RunManager" selected="Application.Maps_4">
     <configuration name="Maps_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Maps_4" />
       <module name="Selenium_1" />
@@ -67,6 +68,19 @@
     </configuration>
     <configuration name="Maps_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Maps_5" />
+      <module name="Selenium_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="map_de" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.map_de" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -100,23 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_selenium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_selenium" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maps_4" />
+        <item itemvalue="Application.map_de" />
         <item itemvalue="Application.maps_6" />
         <item itemvalue="Application.Maps_5" />
-        <item itemvalue="Application.Maps_4" />
         <item itemvalue="JUnit.Test_selenium" />
-        <item itemvalue="JUnit.Test_selenium.test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669480947973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="S">
+      <created>1669484317252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669484317252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
