@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Manav_sorusu {
+public class Manav_sorus {
         public static void main(String[] args) {
 
             Map<String, Integer> urunList = new HashMap<>();
