@@ -6,8 +6,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Maps_4 {
-
-
     public static String[] allSwap(String[] strings) {
         String[] result = new String[strings.length];
         Map<Character, Integer> map = new HashMap<Character, Integer>();
