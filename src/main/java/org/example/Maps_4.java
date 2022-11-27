@@ -6,23 +6,36 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Maps_4 {
-    public static String[] allSwap(String[] strings) {
-        String[] result = new String[strings.length];
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
+    public static void main(String[] args) {
+        /*
+   We'll say that 2 swap "match" if they are non-empty and their first chars are the same.
+   Loop over and then return the given array of non-empty swap as follows:
+   if a string matches an earlier string in the array, swap the 2 swap in the array.
+   When a position in the array has been swapped, it no longer matches anything. Using a map,
+   this can be solved making just one pass over the array. More difficult than it looks.
+allSwap(["ab", "ac"]) → ["ac", "ab"]
+allSwap(["ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"]) → ["ay", "by", "cy", "cx", "bx", "ax", "azz", "aaa"]
+allSwap(["ax", "bx", "ay", "by", "ai", "aj", "bx", "by"]) → ["ay", "by", "ax", "bx", "aj", "ai", "by", "bx"]
+         */
+        String[] swap={"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"} ;
 
-        for (int i = 0; i < strings.length; i++) {
-            char c = strings[i].charAt(0);
-            if (map.containsKey(c)) {
-                int p = map.get(c);
-                map.remove(c);
-                ;
-                result[i] = result[p];
-                result[p] = strings[i];
+        String[] result=new String[swap.length];
+        Map<Character, Integer> map = new HashMap<>();//ilk karakter ve o karakterlerin indexlerinden map yaptım.
+        for (int i = 0; i < swap.length; i++) {
+            char firtschar  = swap[i].charAt(0);//ilk karakterleri aldım
+
+            if (map.containsKey(firtschar)) {
+                int p=map.get(firtschar);
+                map.remove(firtschar);
+
+                result[i]=result[p];
+                result[p]=swap[i];
             } else {
-                result[i] = strings[i];
-                map.put(c, i);
+                result[i]=swap[i];
+                map.put(firtschar,i);
             }
         }
-        return result;
+
+        System.out.println(Arrays.toString(result));
     }
 }

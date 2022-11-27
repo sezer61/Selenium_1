@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/benzersiz_goster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mountain_arry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/map_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Maps_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Maps_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/map_de.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/map_de.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/maps_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fazlayı_sil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +53,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.map_de">
-    <configuration name="Fazlayı_sil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Fazlayı_sil" />
+  <component name="RunManager" selected="Application.mountain_arry">
+    <configuration name="Map_deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map_deneme" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Maps_5" />
+    <configuration name="benzersiz_goster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.benzersiz_goster" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -106,22 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_selenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="mountain_arry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.mountain_arry" />
       <module name="Selenium_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test_selenium" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.map_de" />
+        <item itemvalue="Application.mountain_arry" />
         <item itemvalue="Application.Maps_4" />
-        <item itemvalue="Application.Fazlayı_sil" />
-        <item itemvalue="Application.Maps_5" />
-        <item itemvalue="JUnit.Test_selenium" />
+        <item itemvalue="Application.Map_deneme" />
+        <item itemvalue="Application.benzersiz_goster" />
+        <item itemvalue="Application.map_de" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669501264267</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="S">
+      <created>1669537665984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669537665985</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,5 +218,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="S" />
     <option name="LAST_COMMIT_MESSAGE" value="S" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,31 +5,27 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class map_7 {
-    public static String[] allSwap(final String[] strings) {
-        // map of first characters, and the index where they were last seen
-        final Map<Character, Integer> potentialSwap = new HashMap<>();
+    public static void main(String[] args) {
+        Map<Integer, String> map = new HashMap<Integer, String>();
 
-        for (int thisIndex = 0; thisIndex < strings.length; thisIndex++) {
-            if (strings[thisIndex].isEmpty()) {
-                continue; // skip empty strings
-            }
+    }
+    public static String[] allSwap(String[] strings) {
+        String[] result = new String[strings.length];
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
 
-            final Character firstChar = strings[thisIndex].charAt(0); // box charAt(0)
-            // remove firstChar from the map. If it's not found, returns null
-            final Integer potentialIndex = potentialSwap.remove(firstChar);
-
-            if (potentialIndex != null) {
-                final int thatIndex = potentialIndex; // unbox potentialIndex
-                // swap values at thisIndex and thatIndex
-                final String temp = strings[thatIndex];
-                strings[thatIndex] = strings[thisIndex];
-                strings[thisIndex] = temp;
+        for (int i = 0; i < strings.length; i++) {
+            char c = strings[i].charAt(0);
+            if (map.containsKey(c)) {
+                int p = map.get(c);
+                map.remove(c);
+                ;
+                result[i] = result[p];
+                result[p] = strings[i];
             } else {
-                // save the index for possible swapping later
-                potentialSwap.put(firstChar, thisIndex); // box thisIndex
+                result[i] = strings[i];
+                map.put(c, i);
             }
         }
-
-        return strings;
+        return result;
     }
 }
