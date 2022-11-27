@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Manav_sorusu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manav.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fazlayı_sil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fazlayı_sil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/manv.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +48,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Manav_sorusu">
-    <configuration name="Manav_sorusu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Manav_sorusu" />
+    <configuration name="Manav_sorus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Manav_sorus" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -215,7 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669587725264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="S">
+      <created>1669589036825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669589036825</updated>
+    </task>
+    <task id="LOCAL-00013" summary="S">
+      <created>1669589108263</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669589108263</updated>
+    </task>
+    <task id="LOCAL-00014" summary="S">
+      <created>1669589155345</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669589155345</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

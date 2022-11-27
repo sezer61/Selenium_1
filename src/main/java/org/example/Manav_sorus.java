@@ -15,7 +15,7 @@ public class Manav_sorus {
             boolean sayi = true;
             do {
                 Scanner scan = new Scanner(System.in);
-                System.out.println("Lutfen almak istediginiz urun ismini giriniz : " +
+                System.out.println("Lütfen almak istediginiz ürünü seçiniz : " +
                         "\n->> 1-Un" +
                         "\n->> 2-Şeker" +
                         "\n->> 3-Pirinç");
