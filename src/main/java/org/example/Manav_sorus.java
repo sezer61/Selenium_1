@@ -25,7 +25,7 @@ public class Manav_sorus {
                         System.out.println("Kaç kilo Un istiyorsunuz : ");
                         double kilo = scan.nextDouble();
                         sonuc += urunList.get("Un")*kilo;
-                        System.out.println("Baska bir urun eklemek istiyor musunuz?" +
+                        System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                                 "\nEvet->> 1" +
                                 "\nHayır->> 2");
                         String degis = scan.next();
@@ -39,7 +39,7 @@ public class Manav_sorus {
                         double kilo1 = scan.nextDouble();
                         sonuc += urunList.get("Şeker")*kilo1;
 
-                        System.out.println("Baska bir urun eklemek istiyor musunuz?" +
+                        System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                                 "\nEvet->> 1" +
                                 "\nHayır->> 2");
                         String degis0 = scan.next();
@@ -55,7 +55,7 @@ public class Manav_sorus {
                         double kilo2 = scan.nextDouble();
                         sonuc += urunList.get("Pirinç")*kilo2;
 
-                        System.out.println("Baska bir urun eklemek istiyor musunuz?" +
+                        System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                                 "\nEvet->> 1" +
                                 "\nHayır->> 2");
                         String degis1 = scan.next();
