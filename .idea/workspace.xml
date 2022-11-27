@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Manav_sorusu.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manav.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/manv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mountain_arry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mountain_arry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fazlayı_sil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fazlayı_sil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/manv.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +53,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.manav">
-    <configuration name="Map_deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Map_deneme" />
+  <component name="RunManager" selected="Application.Manav_sorusu">
+    <configuration name="Manav_sorusu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Manav_sorusu" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Manav_sorusu" />
         <item itemvalue="Application.manav" />
         <item itemvalue="Application.manv" />
         <item itemvalue="Application.mountain_arry" />
         <item itemvalue="Application.Maps_4" />
-        <item itemvalue="Application.Map_deneme" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669552086744</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="S">
+      <created>1669587725264</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669587725264</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
