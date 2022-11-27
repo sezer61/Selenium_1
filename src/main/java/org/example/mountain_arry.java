@@ -40,7 +40,7 @@ public class mountain_arry {
                 }
             }
             if (result){
-                System.out.println(Arrays.toString(arr) + "--->>Mountain Array");
+                System.out.println(Arrays.toString(arr) + "--->>Mountain Array.");
             }else {
                 System.out.println(Arrays.toString(arr) + "--->>>Mountain Array Değil");
             }
