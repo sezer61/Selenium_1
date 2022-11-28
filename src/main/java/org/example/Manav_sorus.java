@@ -10,7 +10,7 @@ public class Manav_sorus {
             Map<String, Integer> urunList = new HashMap<>();
             urunList.put("Un", 140);
             urunList.put("Şeker", 29);
-            urunList.put("Pirinç", 33);
+            urunList.put("Pirinc", 33);
             double sonuc = 0;
             boolean sayi = true;
             do {
@@ -66,7 +66,7 @@ public class Manav_sorus {
                         }
                         break;
                 }
-            } while (!sayi == false);
+            } while (!!sayi);
             System.out.println("Sepet tutariniz : " + sonuc + " TL");
         }
     }
