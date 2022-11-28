@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ceb3066-2806-40df-94b6-4e17dedff20b" name="Changes" comment="S">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Urunler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Manav_sorus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Manav_sorus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Urunler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Urunler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/urunList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +55,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Manav_sorus">
-    <configuration name="Manav_sorus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Manav_sorus" />
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Customer" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Maps_4" />
+    <configuration name="Manav_sorus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Manav_sorus" />
       <module name="Selenium_1" />
       <extension name="coverage">
         <pattern>
@@ -120,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Manav_sorus" />
+        <item itemvalue="Application.Customer" />
         <item itemvalue="Application.manav" />
         <item itemvalue="Application.manv" />
         <item itemvalue="Application.mountain_arry" />
-        <item itemvalue="Application.Maps_4" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669630519363</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="S">
+      <created>1669631436107</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669631436107</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

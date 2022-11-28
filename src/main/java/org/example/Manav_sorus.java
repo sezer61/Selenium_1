@@ -1,46 +1,30 @@
 package org.example;
-
-
-
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-
-public class Manav_sorus extends urunList {
-    /*
-     * Basit bir 5 ürünlü manav alisveris programi yaziniz.
-     *
-     * 1. Adim : urun listesinden urun sectir ve kac kilo oldugunu sor. 2. Adim :
-     * Baska bir urun almak isteyip istemedigini sor. istemiyorsa toplam miktari
-     * goster, istiyorsa tekrar urun sectir. Bu islemi alisverisi bitirmek isteyene
-     * kadar tekrarla. 3. Adim : Musteri her urun sectiginde, aldigi urunun fiyatini
-     * toplam fiyata ekle. 4. Adim : Alisveris bitince toplam odemesi gereken tutari
-     * goster.
-     */
+public class Manav_sorus  {
+    public static List<Urunler>urunlerList() {
+        List<Urunler> urunler = new ArrayList<>();
+        urunler.add(new Urunler("->> 1-Un", 150));
+        urunler.add(new Urunler("->> 2-Şeker", 120));
+        urunler.add(new Urunler("->> 3-Pirinç", 110));
+        urunler.add(new Urunler("->> 4-Yağ", 42));
+        urunler.add(new Urunler("->> 5-Cupuacu", 250));
+        return urunler;
+    }
     public static void main(String[] args)  {
-        Map<String, Integer> urunList = new HashMap<>();
-        urunList.put("Un", 150);
-        urunList.put("Şeker", 35);
-        urunList.put("Pirinç", 58);
-        urunList.put("Yağ", 41);
-        urunList.put("Cupuacu", 250);
-
+        List<Urunler>urunler=urunlerList();
         double sonuc = 0;
         boolean sayi = true;
         do {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Lütfen almak istediginiz ürünü seçiniz : " +
-                    "\n->> 1-Un" +
-                    "\n->> 2-Şeker" +
-                    "\n->> 3-Pirinç" +
-                    "\n->> 4-Yağ" +
-                    "\n->> 5-Cupuacu");
+            System.out.println("Lütfen almak istediginiz ürünü seçiniz : ");
             int urun = scan.nextInt();
             switch (urun) {
                 case 1:
                     System.out.println("Kaç kilo Un istiyorsunuz : ");
                     double kilo = scan.nextDouble();
-                    sonuc += urunList.get("Un")*kilo;
+                    sonuc += kilo*urunler.get(0).getFiyat();
                     System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                             "\nEvet->> 1" +
                             "\nHayır->> 2");
@@ -53,7 +37,7 @@ public class Manav_sorus extends urunList {
                 case 2:
                     System.out.println("Kaç kilo Şeker istiyorsunuz : ");
                     double kilo1 = scan.nextDouble();
-                    sonuc += urunList.get("Şeker")*kilo1;
+                    sonuc += kilo1*urunler.get(1).getFiyat();
                     System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                             "\nEvet->> 1" +
                             "\nHayır->> 2");
@@ -68,7 +52,7 @@ public class Manav_sorus extends urunList {
                 case 3:
                     System.out.println("Kaç kilo Pirinç istiyorsunuz : ");
                     double kilo2 = scan.nextDouble();
-                    sonuc += urunList.get("Pirinç")*kilo2;
+                    sonuc += kilo2*urunler.get(2).getFiyat();
                     System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                             "\nEvet->> 1" +
                             "\nHayır->> 2");
@@ -82,7 +66,7 @@ public class Manav_sorus extends urunList {
                 case 4:
                     System.out.println("Kaç Litre Yağ istiyorsunuz : ");
                     double kilo3 = scan.nextDouble();
-                    sonuc += urunList.get("Yağ")*kilo3;
+                    sonuc += kilo3*urunler.get(3).getFiyat();
                     System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                             "\nEvet->> 1" +
                             "\nHayır->> 2");
@@ -96,7 +80,7 @@ public class Manav_sorus extends urunList {
                 case 5:
                     System.out.println("Kaç gram Cupuacu istiyorsunuz : ");
                     double kilo4 = scan.nextDouble();
-                    sonuc +=urunList.get("Cupuacu")*kilo4;
+                    sonuc += kilo4*urunler.get(4).getFiyat();
 
                     System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                             "\nEvet->> 1" +
@@ -110,6 +94,7 @@ public class Manav_sorus extends urunList {
                     break;
             }
         } while (!!sayi);
+
         System.out.println("Sepet tutariniz : " + sonuc + " TL");
     }
 }
