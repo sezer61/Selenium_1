@@ -87,7 +87,7 @@ public class Manav_sorus {
                     case 5:
                         System.out.println("Kaç gram Cupuacu istiyorsunuz : ");
                         double gram = scan.nextDouble();
-                        sonuc += urunList.get("Pirinç")*gram;
+                        sonuc += urunList.get("Cupuacu")*gram;
 
                         System.out.println("Ekstra ürün eklemek ister misiniz ?" +
                                 "\nEvet->> 1" +
