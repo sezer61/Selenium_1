@@ -5,6 +5,16 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Manav_sorus {
+    /*
+     * Basit bir 5 ürünlü manav alisveris programi yaziniz.
+     *
+     * 1. Adim : urun listesinden urun sectir ve kac kilo oldugunu sor. 2. Adim :
+     * Baska bir urun almak isteyip istemedigini sor. istemiyorsa toplam miktari
+     * goster, istiyorsa tekrar urun sectir. Bu islemi alisverisi bitirmek isteyene
+     * kadar tekrarla. 3. Adim : Musteri her urun sectiginde, aldigi urunun fiyatini
+     * toplam fiyata ekle. 4. Adim : Alisveris bitince toplam odemesi gereken tutari
+     * goster.
+     */
         public static void main(String[] args) {
 
             Map<String, Integer> urunList = new HashMap<>();
@@ -100,7 +110,7 @@ public class Manav_sorus {
                         }
                         break;
                 }
-            } while (!sayi == false);
+            } while (!!sayi);
             System.out.println("Sepet tutariniz : " + sonuc + " TL");
         }
     }
