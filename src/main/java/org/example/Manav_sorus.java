@@ -11,7 +11,7 @@ public class Manav_sorus {
             urunList.put("Un", 150);
             urunList.put("Şeker", 35);
             urunList.put("Pirinç", 58);
-            urunList.put("Yağ", 189);
+            urunList.put("Yağ", 41);
             urunList.put("Cupuacu", 250);
             double sonuc = 0;
             boolean sayi = true;
